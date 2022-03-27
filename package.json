@@ -1,0 +1,29 @@
+{
+  "name": "s30carblog",
+  "version": "1.0.0",
+  "description": "A car blog where the user can ask publish articles, blog posts, and express their thoughts and opinions on others posts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcstewart76/S30CarBlog.git"
+  },
+  "author": "Michael Chris Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "express":"4.17.3",
+    "handlebars": "4.7.7",
+    "mysql":"2.18.1",
+    "mysql2":"2.3.3",
+    "sequelize":"6.17.0",
+    "dotenv":"16.0.0",
+    "express-handlebars":"6.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/mcstewart76/S30CarBlog/issues"
+  },
+  "homepage": "https://github.com/mcstewart76/S30CarBlog#readme"
+}
